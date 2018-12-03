@@ -1,0 +1,77 @@
+{
+  "Version": "18.10",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "2",
+    "Threads": "1",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "158",
+    "Stepping": "9",
+    "Name": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+    "Hypervisor": "KVM",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "80ee",
+      "Model": "beef"
+    }
+  ],
+  "RAM": 2,
+  "Disks": [
+    10.7
+  ],
+  "Partitions": [
+    9.2
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1920x950",
+      "Frequency": "59.97"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "tr_TR",
+  "Timezone": "Asia/Istanbul",
+  "Install": {
+    "Media": "Ubuntu 18.10 \"Cosmic Cuttlefish\" - Release amd64 (20181017.3)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_lvm",
+    "DownloadUpdates": true,
+    "Language": "tr",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "10": "console_setup",
+      "18": "prepare",
+      "23": "partman",
+      "26": "start_install",
+      "33": "timezone",
+      "49": "usersetup",
+      "86": "user_done",
+      "340": "done"
+    }
+  }
+}
